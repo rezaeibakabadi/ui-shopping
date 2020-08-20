@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Document</title>
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <script src="js/jquery.min.js" rel="script"></script>
@@ -26,7 +27,7 @@
     </script>
 
 </head>
-<body>
+<body style="background-color:black;">
 
 
 <div class="container col-md-12 col-sm-12 col-lg-12 col-xl-12">
@@ -43,7 +44,7 @@
             </div>
             <div class="col" style="padding-top: 4px;right: 4px; text-align: center">
                 <span style="display:inline-block;margin-left:13px;text-align: center; padding-right: 25px;padding-left: 25px;padding-top:2px;margin-bottom: 6px; height: auto;width: 160px; border-radius: 26px; font-size: 16px;background-color:gray;">
-                    :مظنه
+                    :آب شده فردایی
                     <br>
                     46222
                 </span>
@@ -51,7 +52,7 @@
         </div>
     </header>
 
-    <main class="main default" style="min-height: 75vh;">
+    <main class="main default" style="min-height: 40vh;background-color:grey; border-radius: 3px; overflow: scroll;height: 60px; color:#fbbe32 ">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse explicabo inventore ipsa. Ad consequatur, dolore
         doloribus earum exercitationem facilis iste laboriosam nisi nostrum odit optio quasi quisquam, rerum suscipit
         unde.
@@ -60,7 +61,7 @@
         repellendus tempore.
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="footer-container" style="max-width: 1800px;display: flex;min-width: 300px;
         justify-content: space-around;align-items: center; flex-wrap: wrap-reverse; margin: auto;padding: 20px ;">
             <div class="left-col " >
@@ -75,6 +76,10 @@
                             <div class="modal-body">
                                 <form action="" style="width: 100%;text-align: center;">
                                     <div class="form-group" style="text-align: right;">
+                                        <label for="profit-limit4" style="color: #9a9494f5; font-size: 19px;">: واحد </label>
+                                        <input id="profit-limit4" type="number" class="form-control">
+                                    </div>
+                                    <div class="form-group" style="text-align: right;">
                                         <label for="profit-limit" style="color: #9a9494f5; font-size: 19px;">: حد سود </label>
                                         <input id="profit-limit" type="number" class="form-control">
                                     </div>
@@ -84,15 +89,15 @@
                                         <input id="loss-limit" type="number" class="form-control">
                                     </div>
 
-                                            <form action="">
-                                                <div class="custom-control custom-switch">
-                                                    <input type="checkbox" class="custom-control-input" id="switch1" name="example">
-                                                    <label class="custom-control-label" for="switch1" style="color: #fbbe32;">امکان خرد شدن</label>
-                                                </div>
+                                    <form action="">
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="switch1" name="example">
+                                            <label class="custom-control-label" for="switch1" style="color: #fbbe32;">امکان خرد شدن</label>
+                                        </div>
 
-                                    <hr>
+                                        <hr>
 
-                                            </form>
+                                    </form>
                                 </form>
                             </div>
                             <div class="modal-footer btn-danger justify-content-center">
@@ -103,11 +108,7 @@
 
                 </div>
                 <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="modal" data-target="#fdmodal">سفارش فروش</button>
-
             </div>
-
-
-
             <div class="right-col ">
                 <div class="modal col-md-12 col-sm-12 col-lg-12 col-xl-12" id="fdmodal2">
                     <div class="modal-dialog modal-dialog-centered">
@@ -119,6 +120,10 @@
                             <div class="modal-body">
 
                                 <form action="" style="width: 100%;text-align: center;">
+                                    <div class="form-group" style="text-align: right;">
+                                        <label for="profit-limit20" style="color: #9a9494f5; font-size: 19px;">: واحد </label>
+                                        <input id="profit-limit20" type="number" class="form-control">
+                                    </div>
                                     <div class="form-group" style="text-align: right;">
                                         <label for="profit-limit2" style="color: #9a9494f5; font-size: 19px;">: حد سود </label>
                                         <input id="profit-limit2" type="number" class="form-control">
